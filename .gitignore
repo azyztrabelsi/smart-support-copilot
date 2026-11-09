@@ -6,7 +6,9 @@ venv/
 
 # Data (DVC will handle this)
 data/raw/*
+!data/raw/*.dvc
 data/processed/*
+!data/processed/*.dvc
 
 # Models
 models/*
