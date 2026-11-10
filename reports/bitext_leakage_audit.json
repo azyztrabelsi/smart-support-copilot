@@ -1,0 +1,36 @@
+{
+  "rows": 26872,
+  "columns": [
+    "flags",
+    "instruction",
+    "category",
+    "intent",
+    "response"
+  ],
+  "missing_values": {
+    "flags": 0,
+    "instruction": 0,
+    "category": 0,
+    "intent": 0,
+    "response": 0
+  },
+  "category_distribution": {
+    "ACCOUNT": 5986,
+    "ORDER": 3988,
+    "REFUND": 2992,
+    "INVOICE": 1999,
+    "CONTACT": 1999,
+    "PAYMENT": 1998,
+    "FEEDBACK": 1997,
+    "DELIVERY": 1994,
+    "SHIPPING": 1970,
+    "SUBSCRIPTION": 999,
+    "CANCEL": 950
+  },
+  "exact_duplicate_instruction_rows": 3785,
+  "duplicate_instruction_groups": 1187,
+  "conflicting_duplicate_groups": 0,
+  "instructions_containing_category_token": 12868,
+  "instructions_containing_intent_token": 455,
+  "response_is_not_used_as_model_input": true
+}

@@ -1,0 +1,16 @@
+{
+  "rows": 300000,
+  "valid_timestamp_rows": 300000,
+  "invalid_timestamp_rows": 0,
+  "issue_types": 9,
+  "volume_spikes": 2,
+  "operational_outliers": 2928,
+  "excluded_identifier_columns": [
+    "ticket_id",
+    "customer_id",
+    "phone_number",
+    "assigned_to"
+  ],
+  "volume_spike_threshold": 3.0,
+  "outlier_contamination": 0.01
+}
